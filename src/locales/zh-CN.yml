@@ -1,0 +1,14 @@
+button:
+  about: 关于
+  back: 返回
+  go: 确定
+  home: 首页
+  toggle_dark: 切换深色模式
+  toggle_langs: 切换语言
+intro:
+  title: "❌ or ✅"
+  desc: 欢迎使用敏感词检测服务
+  whats-the-word: 输入待检测词语
+  check-pass: ✅检测通过~✅
+  check-block: ❌包含敏感词!❌
+not-found: 未找到页面

@@ -1,0 +1,50 @@
+{
+  "name": "vitemo",
+  "version": "0.0.0",
+  "packageManager": "pnpm@9.5.0",
+  "type": "module",
+  "license": "MIT",
+  "author": "BraveEggTart",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vueuse/core": "^10.11.0",
+    "axios": "^1.7.2",
+    "element-plus": "^2.7.7",
+    "nprogress": "^0.2.0",
+    "pinia": "^2.1.7",
+    "prism-theme-vars": "^0.2.5",
+    "vue": "^3.4.31",
+    "vue-i18n": "^9.13.1",
+    "vue-router": "^4.4.0"
+  },
+  "devDependencies": {
+    "@iconify/json": "^2.2.230",
+    "@intlify/unplugin-vue-i18n": "^4.0.0",
+    "@types/nprogress": "^0.2.3",
+    "@typescript-eslint/eslint-plugin": "^7.17.0",
+    "@typescript-eslint/parser": "^7.17.0",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "eslint": "^8.56.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-vue": "^9.27.0",
+    "markdown-it-link-attributes": "^4.0.1",
+    "markdown-it-prism": "^2.3.0",
+    "pnpm": "^9.5.0",
+    "prettier": "^3.3.3",
+    "sass": "^1.77.8",
+    "typescript": "^5.2.2",
+    "unplugin-auto-import": "^0.18.1",
+    "unplugin-icons": "^0.19.0",
+    "unplugin-vue-components": "^0.27.3",
+    "unplugin-vue-markdown": "^0.26.2",
+    "vite": "^5.3.4",
+    "vue-tsc": "^2.0.24"
+  }
+}
