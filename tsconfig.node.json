@@ -16,7 +16,6 @@
       "@/*": ["src/*"],
     }
   },
-  "exclude": [".postcssrc.js"],
   "include": [
     "vite.config.ts",
     "./src/auto-imports.d.ts",
