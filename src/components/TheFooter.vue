@@ -1,6 +1,6 @@
 <template>
     <div class="text-center">
-      <el-tooltip :content="t('home')" placement="top">
+      <!-- <el-tooltip :content="t('home')" placement="top">
         <router-link class="icon-btn mx-2" to="/">
           <i-mdi-home-search-outline class="icon-footer" />
         </router-link>
@@ -23,7 +23,7 @@
         <router-link class="icon-btn mx-2" to="/nsfw">
           <i-ri-article-line class="icon-footer" />
         </router-link>
-      </el-tooltip>
+      </el-tooltip> -->
 
     </div>
   </template>

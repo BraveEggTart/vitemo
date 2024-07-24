@@ -9,7 +9,7 @@ const asyncRoutes: Array<RouteRecordRaw> = [
       title: '',
       icon: '',
     },
-    component: () => import('@/views/home.vue'),
+    component: () => import('@/views/emoji.vue'),
   },
   {
     path: '/nsfw',
