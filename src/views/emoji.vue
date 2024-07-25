@@ -26,7 +26,10 @@
 </template>
 
 <script lang="ts" setup>
+import axios from 'axios';
 import { ref } from 'vue'
+
+axios.defaults.baseURL = "http://localhost"
 
 const count = ref(0)
 const loading = ref(false)
@@ -39,13 +42,23 @@ const load = () => {
     loading.value = false
   }, 2000)
 }
-const urls = [
-  'https://avatars.githubusercontent.com/u/167064418?v=4',
-  'https://avatars.githubusercontent.com/u/18116833?s=400&u=0bab63793731ab05ebc939f02861154eba10e2c3&v=4'
-]
+
+const urls = ref<string[]>([]);
+
+onMounted(() => {
+  for (let index = 0; index < 20; index++) {
+    axios({
+      url: "/api/emoji/random",
+      method:"get"
+    }).then(res => {
+      urls.value.push(res.data.data)
+    })
+  }
+});
+
 
 const randomUrl = (i: number) => {
-  return urls[i%2]
+  return urls.value[i%20]
 }
 
 </script>
