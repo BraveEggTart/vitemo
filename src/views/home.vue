@@ -13,7 +13,7 @@ axios.defaults.baseURL = "https://nsfw.just4dream.club"
 function go() {
   if (name.value) {
     axios({
-      url: '/check',
+      url: '/api/check',
       params: {
         "word": name.value
       }
@@ -36,7 +36,7 @@ function go() {
 </script>
 
 <template>
-  <div>
+  <div style="text-align: center;">
     <div text-4xl>
       <div i-carbon-campsite inline-block />
     </div>
