@@ -6,8 +6,9 @@
   "license": "MIT",
   "author": "BraveEggTart",
   "scripts": {
-    "dev": "vite",
-    "build": "vue-tsc -b && vite build",
+    "dev": "vite --host",
+    "build: strict": "vue-tsc -b && vite build",
+    "build": "vite build",
     "preview": "vite preview",
     "openapi": "tsx './src/openapi.ts'"
   },

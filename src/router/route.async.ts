@@ -6,10 +6,10 @@ const asyncRoutes: Array<RouteRecordRaw> = [
     path: '/',
     name: 'home',
     meta: {
-      title: '',
+      title: 'Vitemo',
       icon: '',
     },
-    component: () => import('@/views/home.vue'),
+    component: () => import('../views/home.vue'),
   },
   {
     path: '/nsfw',
@@ -18,25 +18,7 @@ const asyncRoutes: Array<RouteRecordRaw> = [
       title: 'Word check',
       icon: '',
     },
-    component: () => import('@/views/nsfw.vue'),
-  },
-  {
-    path: '/emoji',
-    name: 'emoji',
-    meta: {
-      title: 'Emoji',
-      icon: '',
-    },
-    component: () => import('@/views/emoji.vue'),
-  },
-  {
-    path: '/meme',
-    name: 'meme',
-    meta: {
-      title: 'Meme',
-      icon: '',
-    },
-    component: () => import('@/views/meme.vue'),
+    component: () => import('../views/nsfw.vue'),
   },
 ];
 
