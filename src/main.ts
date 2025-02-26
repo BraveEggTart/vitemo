@@ -11,6 +11,7 @@ import App from './App.vue';
 import 'element-plus/dist/index.css';
 import '@/assets/styles/index.scss';
 
+// 设置默认语言
 const i18n = createI18n({
   locale: 'en',
   messages,
