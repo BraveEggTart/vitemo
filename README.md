@@ -60,3 +60,6 @@ And you will see the generated file in `dist` that ready to be served.
 ## Thanks
 
 This template has some features inspired by [Vitesse](https://github.com/antfu/vitesse) ❤
+
+## Test
+To test the bot

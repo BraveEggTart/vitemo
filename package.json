@@ -7,6 +7,7 @@
   "author": "BraveEggTart",
   "scripts": {
     "dev": "vite --host",
+    "start": "vite --host",
     "build: strict": "vue-tsc -b && vite build",
     "build": "vite build",
     "preview": "vite preview",
